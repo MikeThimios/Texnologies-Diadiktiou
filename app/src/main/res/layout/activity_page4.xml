@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Page4">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="624dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
