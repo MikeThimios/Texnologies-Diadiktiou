@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".Page3">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:text="Generate program"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="59dp"
+        android:text="Next"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:text="Previous"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="28dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
