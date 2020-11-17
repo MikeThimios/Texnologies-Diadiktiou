@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Texnologies Diadiktiou</string>
+
+
+    <string name="InsertCompany">insert company </string>
+    <string name="InsertUser">insert user</string>
+    <string name="Next">next</string>
+
+
 </resources>
