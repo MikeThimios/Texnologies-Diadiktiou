@@ -33,7 +33,7 @@ public class Page3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page3);
 
-        button = (Button) findViewById(R.id.buttonPrevious);
+        button = (Button) findViewById(R.id.buttonBefore);
         button.setOnClickListener(new View.OnClickListener()){
             @Override
             public void onClick(View v){
