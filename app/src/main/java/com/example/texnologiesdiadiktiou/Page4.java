@@ -22,7 +22,7 @@ public class Page4 extends AppCompatActivity {
 
         buttonBefore = (Button) findViewById(R.id.buttonBefore);
         button.setOnClickListener(new View.OnClickListener()){
-            @Override
+
             public void onClick(View v){
                 openPage3();
             };
