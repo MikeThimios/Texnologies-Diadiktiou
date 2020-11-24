@@ -7,6 +7,8 @@ import android.view.View;
 
 public class Page4 extends AppCompatActivity {
 
+    Private Button BackToThePast ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class Page4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page4);
 
-        button = (Button) findViewById(R.id.buttonPrevious);
+        buttonBefore = (Button) findViewById(R.id.buttonBefore);
         button.setOnClickListener(new View.OnClickListener()){
             @Override
             public void onClick(View v){
