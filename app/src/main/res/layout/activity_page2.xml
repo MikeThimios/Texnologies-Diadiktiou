@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="634dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonNext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
