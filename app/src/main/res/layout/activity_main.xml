@@ -31,9 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/InsertCompany"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="250dp" />
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="248dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/insertUserBTN"
@@ -41,8 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/InsertUser"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="346dp" />
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="332dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
