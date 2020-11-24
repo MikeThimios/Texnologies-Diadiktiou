@@ -91,13 +91,13 @@ public boolean onOptionsItemSelected(Menuitem , item) {
         startActivity(intent);
 
     }
-        public void openPageUser(){
-            Intent intent = new intent(this , Page2.class);
+        public void openinsertUser(){
+            Intent intent = new intent(this , InsertUser.class);
             startActivity(intent);
 
         }
-        public void openPageCompany(){
-            Intent intent = new intent(this , Page2.class);
+        public void openinsertCom(){
+            Intent intent = new intent(this , InsertCompany.class);
             startActivity(intent);
 
         }
