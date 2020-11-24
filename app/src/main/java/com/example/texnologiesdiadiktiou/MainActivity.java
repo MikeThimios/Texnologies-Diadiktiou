@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.view.Menu;
+
+
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
@@ -17,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acitivity_main);
         insertUser = (Button)findViewById(R.id.insertUserBTN);
-        insertCompany =(Button)findViewById(R.id.insertComBTN);
+        insertCom =(Button)findViewById(R.id.insertComBTN);
         myDb = new DatabaseHelper(this);
 
     }
@@ -101,6 +105,6 @@ public boolean onOptionsItemSelected(Menuitem , item) {
             startActivity(intent);
 
         }
-    //Καλυτερα κοψτε με
+
 
 }
