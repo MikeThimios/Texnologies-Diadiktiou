@@ -7,6 +7,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
+    private Button insertUser;
+    private Button insertCom;
 
 public class MainActivity extends ActionBarActivity {
     DatabaseHelper myDb;
@@ -51,14 +53,14 @@ public boolean onOptionsItemSelected(Menuitem , item) {
         button.setOnClickListener(new View.OnClickListener()){
             @Override
             public void onClick(View v){
-                openPageUser();
+                openInsertUser();
             };
         }
         button = (Button) findViewById(R.id.insertUserBTN);
         button.setOnClickListener(new View.OnClickListener()){
             @Override
             public void onClick(View v){
-                openPageCompany();
+                openInsertCompany();
             };
         }
     }
