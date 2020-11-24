@@ -14,6 +14,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acitivity_main);
+        insertUser = (Button)findViewById(R.id.insertUserBTN);
+        insertCompany =(Button)findViewById(R.id.insertComBTN);
         myDb = new DatabaseHelper(this);
 
     }
@@ -45,6 +47,27 @@ public boolean onOptionsItemSelected(Menuitem , item) {
                 openPage2();
             };
         }
+    }
+
+    public void insertUser(String newEntry){
+     boolean insertData = myDb.addData(newEntry);
+      if (insertData){
+          toastMessage("User Name Inserted");
+          else
+          {
+              toastMessage("Something went wrong");
+          }
+      }
+      public void insertCompany(String newEntry){
+            boolean insertData = myDb.addData(newEntry);
+            if (insertData){
+                toastMessage("Company name  Inserted");
+          else
+                {
+                    toastMessage("Something went wrong");
+                }
+            }
+
     }
 
     public void openPage2(){
