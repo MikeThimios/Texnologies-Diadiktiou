@@ -47,6 +47,20 @@ public boolean onOptionsItemSelected(Menuitem , item) {
                 openPage2();
             };
         }
+        button = (Button) findViewById(R.id.insertComBTN);
+        button.setOnClickListener(new View.OnClickListener()){
+            @Override
+            public void onClick(View v){
+                openPageUser();
+            };
+        }
+        button = (Button) findViewById(R.id.insertUserBTN);
+        button.setOnClickListener(new View.OnClickListener()){
+            @Override
+            public void onClick(View v){
+                openPageCompany();
+            };
+        }
     }
 
     public void insertUser(String newEntry){
@@ -75,6 +89,16 @@ public boolean onOptionsItemSelected(Menuitem , item) {
         startActivity(intent);
 
     }
+        public void openPageUser(){
+            Intent intent = new intent(this , Page2.class);
+            startActivity(intent);
+
+        }
+        public void openPageCompany(){
+            Intent intent = new intent(this , Page2.class);
+            startActivity(intent);
+
+        }
     //Καλυτερα κοψτε με
 
 }
