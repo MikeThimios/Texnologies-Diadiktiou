@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TexnologiesDiadiktiou">
+        <activity android:name=".InsertUser"></activity>
+        <activity android:name=".InsertCompany" />
         <activity android:name=".Page4" />
         <activity android:name=".Page3" />
         <activity android:name=".Page2" />
