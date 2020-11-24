@@ -16,7 +16,7 @@ public class Page4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page3);
+        setContentView(R.layout.activity_page4);
 
         button = (Button) findViewById(R.id.buttonPrevious);
         button.setOnClickListener(new View.OnClickListener()){
