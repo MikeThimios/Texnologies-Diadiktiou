@@ -31,6 +31,8 @@ public boolean onOptionsItemSelected(Menuitem , item) {
 
 
 }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,8 +52,6 @@ public boolean onOptionsItemSelected(Menuitem , item) {
         startActivity(intent);
 
     }
-
-
     //Καλυτερα κοψτε με
 
 }
