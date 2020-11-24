@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acitivity_main);
         insertUser = (Button)findViewById(R.id.insertUserBTN);
-        insertCompany =(Button)findViewById(R.id.insertComBTN);
+        insertCom =(Button)findViewById(R.id.insertComBTN);
         myDb = new DatabaseHelper(this);
 
     }
