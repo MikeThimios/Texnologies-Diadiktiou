@@ -30,7 +30,7 @@ public class Page4 extends AppCompatActivity {
     }
 
     public void openPage3(){
-        Intent intent = new intent(this , Page2.class);
+        Intent intent = new intent(this , Page3.class);
         startActivity(intent);
 
     }
