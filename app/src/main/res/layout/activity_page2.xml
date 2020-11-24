@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Page2">
+
+    <LinearLayout>
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button"
@@ -21,7 +33,14 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Button"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="534dp" />
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="28dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
