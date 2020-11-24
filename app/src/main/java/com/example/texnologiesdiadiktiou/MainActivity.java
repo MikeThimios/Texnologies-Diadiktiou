@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.view.Menu;
+
+
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
@@ -101,6 +105,6 @@ public boolean onOptionsItemSelected(Menuitem , item) {
             startActivity(intent);
 
         }
-    //Καλυτερα κοψτε με
+
 
 }
