@@ -49,15 +49,15 @@ public boolean onOptionsItemSelected(Menuitem , item) {
                 openPage2();
             };
         }
-        button = (Button) findViewById(R.id.insertComBTN);
-        button.setOnClickListener(new View.OnClickListener()){
+        insertCom = (Button) findViewById(R.id.insertComBTN);
+        insertCom.setOnClickListener(new View.OnClickListener()){
             @Override
             public void onClick(View v){
                 openInsertUser();
             };
         }
-        button = (Button) findViewById(R.id.insertUserBTN);
-        button.setOnClickListener(new View.OnClickListener()){
+        insertUser = (Button) findViewById(R.id.insertUserBTN);
+        insertUser.setOnClickListener(new View.OnClickListener()){
             @Override
             public void onClick(View v){
                 openInsertCompany();
@@ -91,13 +91,13 @@ public boolean onOptionsItemSelected(Menuitem , item) {
         startActivity(intent);
 
     }
-        public void openPageUser(){
-            Intent intent = new intent(this , Page2.class);
+        public void openinsertUser(){
+            Intent intent = new intent(this , InsertUser.class);
             startActivity(intent);
 
         }
-        public void openPageCompany(){
-            Intent intent = new intent(this , Page2.class);
+        public void openinsertCom(){
+            Intent intent = new intent(this , InsertCompany.class);
             startActivity(intent);
 
         }
