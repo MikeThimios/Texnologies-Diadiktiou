@@ -8,6 +8,7 @@ import android.view.View;
 public class Page4 extends AppCompatActivity {
 
     Private Button backToThePast;
+    Private Button backToStart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,16 @@ public class Page4 extends AppCompatActivity {
             public void onClick(View v){
                 openPage3();
             };
+
         }
+
+        backToStart = (Button) findViewById(R.id.buttonBack);
+        backToStart.setOnClickListener(new View.OnClickListener()){
+
+            public void onClick(View v){
+                openPage1();
+            };
+
     }
 
     public void openPage3(){
@@ -34,4 +44,11 @@ public class Page4 extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+        public void openPage1(){
+            Intent intent = new intent(this , MainActivity.class);
+            startActivity(intent);
+
+        }
+
 }

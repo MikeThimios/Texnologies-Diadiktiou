@@ -40,47 +40,49 @@ public boolean onOptionsItemSelected(Menuitem , item) {
 
 }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         button = (Button) findViewById(R.id.nextBTN);
-        button.setOnClickListener(new View.OnClickListener()){
+        button.setOnClickListener(new View.OnClickListener()) {
             @Override
-            public void onClick(View v){
+            public void onClick (View v){
                 openPage2();
-            };
+            }
+            ;
         }
         insertCom = (Button) findViewById(R.id.insertComBTN);
-        insertCom.setOnClickListener(new View.OnClickListener()){
+        insertCom.setOnClickListener(new View.OnClickListener()) {
             @Override
-            public void onClick(View v){
+            public void onClick (View v){
                 openInsertUser();
-            };
+            }
+            ;
         }
         insertUser = (Button) findViewById(R.id.insertUserBTN);
-        insertUser.setOnClickListener(new View.OnClickListener()){
+        insertUser.setOnClickListener(new View.OnClickListener()) {
             @Override
-            public void onClick(View v){
+            public void onClick (View v){
                 openInsertCompany();
-            };
+            }
+            ;
         }
     }
 
-    public void insertUser(String newEntry){
-     boolean insertData = myDb.addData(newEntry);
-      if (insertData){
-          toastMessage("User Name Inserted");
+    public void insertUser(String newEntry) {
+        boolean insertData = myDb.addData(newEntry);
+        if (insertData) {
+            toastMessage("User Name Inserted");
           else
-          {
-              toastMessage("Something went wrong");
-          }
-      }
-      public void insertCompany(String newEntry){
+            {
+                toastMessage("Something went wrong");
+            }
+        }
+        public void insertCompany (String newEntry){
             boolean insertData = myDb.addData(newEntry);
-            if (insertData){
+            if (insertData) {
                 toastMessage("Company name  Inserted");
           else
                 {
@@ -88,23 +90,24 @@ public boolean onOptionsItemSelected(Menuitem , item) {
                 }
             }
 
-    }
+        }
 
-    public void openPage2(){
-        Intent intent = new intent(this , Page2.class);
-        startActivity(intent);
-
-    }
-        public void openinsertUser(){
-            Intent intent = new intent(this , InsertUser.class);
+        public void openPage2 () {
+            Intent intent = new intent(this, Page2.class);
             startActivity(intent);
 
         }
-        public void openinsertCom(){
-            Intent intent = new intent(this , InsertCompany.class);
+        public void openinsertUser () {
+            Intent intent = new intent(this, InsertUser.class);
+            startActivity(intent);
+
+        }
+        public void openinsertCom () {
+            Intent intent = new intent(this, InsertCompany.class);
             startActivity(intent);
 
         }
 
 
+    }
 }
