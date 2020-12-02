@@ -21,7 +21,7 @@ public class Page4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page4);
 
-        backToThePast = (Button) findViewById(R.id.buttonBefore);
+        backToThePast = (Button) findViewById(R.id.buttonGenerate);
         backToThePast.setOnClickListener(new View.OnClickListener()){
 
             public void onClick(View v){

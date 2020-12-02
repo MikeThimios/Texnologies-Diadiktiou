@@ -6,5 +6,13 @@
     <string name="InsertUser">insert user</string>
     <string name="Next">next</string>
 
+    <string-array name="companyInput">
+        <item>testCompany</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test etc</item>
+        <item>utf τεστ</item>
+    </string-array>
+
 
 </resources>

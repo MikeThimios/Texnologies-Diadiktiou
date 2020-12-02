@@ -8,7 +8,7 @@
     android:background="@drawable/background">
 
     <Button
-        android:id="@+id/buttonBefore"
+        android:id="@+id/buttonGenerate"
         android:layout_width="185dp"
         android:layout_height="60dp"
         android:text="Generate program"
@@ -23,18 +23,18 @@
         tools:layout_editor_absoluteX="264dp"
         tools:layout_editor_absoluteY="655dp" />
 
-    <Button
-        android:id="@+id/buttonBefore"
-        android:layout_width="132dp"
-        android:layout_height="60dp"
-        android:text="Previous"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="655dp" />
-
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="274dp"
         android:layout_height="50dp"
         tools:layout_editor_absoluteX="68dp"
         tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="654dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
